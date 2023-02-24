@@ -1,7 +1,8 @@
 module.exports = {
     title: '木羽的树',
     description: '基于git的web笔记本',
-    base: '/notebooks',   // 设置站点根路径
+    // base: '/notebooks',   // 设置站点根路径
+    base: '/', //使用vercel部署
     dest: './gh-pages',
     themeConfig: {
         nav: [
