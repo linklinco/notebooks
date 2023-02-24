@@ -1,6 +1,6 @@
 {
   "name": "notebooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:linklinco/notebooks.git",
   "author": "linco <linklinco@163.com>",
@@ -12,6 +12,9 @@
   "scripts": {
     "dev:docs": "vuepress dev docs",
     "build:docs": "vuepress build docs",
-    "publish": "gh-pages -d gh-pages"
+    "publish:docs": "gh-pages -d gh-pages"
+  },
+  "engines": {
+    "node": "^16.13.0"
   }
 }
